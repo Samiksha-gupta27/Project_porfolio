@@ -8,43 +8,98 @@
   <title>Samiksha Gupta | Data Science Student</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    /* ... (same CSS as before) ... */
-
-    /* New styles */
     body {
       background-color: #f5f5f5;
     }
-
-    header {
+header {
       background-size: cover;
       background-position: center;
       color: #fff;
     }
-
-    section {
+section {
       background-color: #fff;
       padding: 2rem;
       border-radius: 10px;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     }
 
-    .project-card {
+.project-card {
       display: flex;
       align-items: center;
       padding: 1rem;
       border-bottom: 1px solid #ddd;
     }
 
-    .project-card img {
+.project-card img {
       width: 100px;
       height: 100px;
       object-fit: cover;
       margin-right: 1rem;
     }
 
-    .project-card h4 {
+.project-card h4 {
       margin-bottom: 0;
     }
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2970e3;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #2970e3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
   </style>
 </head>
 
@@ -230,62 +285,3 @@ plt.show()
   </footer>
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    background-color: #2970e3;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    border-bottom: 2px solid #444;
-    padding-bottom: 5px;
-}
-
-footer {
-    background-color: #2970e3;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-@media (max-width: 600px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
